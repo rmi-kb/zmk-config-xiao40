@@ -26,8 +26,6 @@
     chosen {
         zmk,kscan = &kscan0;
         zmk,matrix_transform = &transform;
-	/delete-property/ zephyr,console;
-	/delete-property/ zephyr,shell-uart;
     };
 
     transform: transform {
